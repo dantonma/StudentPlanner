@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F8277651258403920092DC7A /* AssignmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8277650258403920092DC7A /* AssignmentItem.swift */; };
+		F86BA3A42583E4C7007A18BD /* AssignmentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BA3A32583E4C7007A18BD /* AssignmentTableViewController.swift */; };
 		F89555FE2583D3120010C500 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89555FD2583D3120010C500 /* AppDelegate.swift */; };
 		F89556002583D3120010C500 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89555FF2583D3120010C500 /* SceneDelegate.swift */; };
-		F89556022583D3120010C500 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89556012583D3120010C500 /* ViewController.swift */; };
+		F89556022583D3120010C500 /* AssignmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89556012583D3120010C500 /* AssignmentViewController.swift */; };
 		F89556052583D3120010C500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89556032583D3120010C500 /* Main.storyboard */; };
 		F89556072583D3140010C500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89556062583D3140010C500 /* Assets.xcassets */; };
 		F895560A2583D3140010C500 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89556082583D3140010C500 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F8277650258403920092DC7A /* AssignmentItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentItem.swift; sourceTree = "<group>"; };
+		F86BA3A32583E4C7007A18BD /* AssignmentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentTableViewController.swift; sourceTree = "<group>"; };
 		F89555FA2583D3120010C500 /* Student Planner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Student Planner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F89555FD2583D3120010C500 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F89555FF2583D3120010C500 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F89556012583D3120010C500 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F89556012583D3120010C500 /* AssignmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssignmentViewController.swift; sourceTree = "<group>"; };
 		F89556042583D3120010C500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F89556062583D3140010C500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F89556092583D3140010C500 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +62,9 @@
 			children = (
 				F89555FD2583D3120010C500 /* AppDelegate.swift */,
 				F89555FF2583D3120010C500 /* SceneDelegate.swift */,
-				F89556012583D3120010C500 /* ViewController.swift */,
+				F8277650258403920092DC7A /* AssignmentItem.swift */,
+				F89556012583D3120010C500 /* AssignmentViewController.swift */,
+				F86BA3A32583E4C7007A18BD /* AssignmentTableViewController.swift */,
 				F89556032583D3120010C500 /* Main.storyboard */,
 				F89556062583D3140010C500 /* Assets.xcassets */,
 				F89556082583D3140010C500 /* LaunchScreen.storyboard */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F89556022583D3120010C500 /* ViewController.swift in Sources */,
+				F89556022583D3120010C500 /* AssignmentViewController.swift in Sources */,
+				F8277651258403920092DC7A /* AssignmentItem.swift in Sources */,
 				F89555FE2583D3120010C500 /* AppDelegate.swift in Sources */,
+				F86BA3A42583E4C7007A18BD /* AssignmentTableViewController.swift in Sources */,
 				F89556002583D3120010C500 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
